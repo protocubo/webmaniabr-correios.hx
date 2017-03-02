@@ -1,0 +1,18 @@
+-lib webmaniabr-correios
+-lib utest
+-cp test
+-main Run
+
+--each
+
+-js bin/correios.node.js
+-lib hxnodejs
+
+--next
+
+-neko bin/correios.n
+
+--next
+
+-js bin/correios.js
+

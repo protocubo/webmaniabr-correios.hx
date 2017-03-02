@@ -1,0 +1,14 @@
+{
+  "name"         :  "webmaniabr-correios",
+  "url"          :  "https://github.com/protocubo/webmaniabr-correios.hx",
+  "license"      :  "BSD",
+  "tags"         :  ["cross"],
+  "description"  :  "Search addresses for Brazilian ZIP codes with the WebmaniaBR REST API",
+  "version"      :  "1.0.0",
+  "classPath"    :  "lib",
+  "releasenote"  :  "Initial work",
+  "contributors" :  ["jonasmalacofilho", "protocubo"],
+  "dependencies" :  {
+  }
+}
+
