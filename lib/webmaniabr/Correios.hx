@@ -73,8 +73,12 @@ class Correios {
 				}
 			}
 		req.onError = function (err) cb(Failure(err));
+
+		//https://stackoverflow.com/questions/7210507/ajax-post-error-refused-to-set-unsafe-header-connection
+		#if !js
 		req.addHeader("User-Agent", "Haxe; protocubo/webmaniabr-correios.hx; https://github.com/protocubo/webmaniabr-correios.hx");
 		req.addHeader("Connection", "keep-alive");
+		#end
 		req.request();
 	}
 }

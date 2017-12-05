@@ -18,7 +18,7 @@ class TestCorreios {
 					bairro : "Ahú",
 					cidade : "Curitiba",
 					uf : "PR",
-					cep : "80540-180"
+					cep : "80540180"
 				}, address);
 			case None:
 				Assert.fail(Std.string(res));
@@ -38,7 +38,7 @@ class TestCorreios {
 					bairro : "Ahú",
 					cidade : "Curitiba",
 					uf : "PR",
-					cep : "80540-180"
+					cep : "80540180"
 				}), res);
 			done();
 		});
